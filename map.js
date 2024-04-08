@@ -11,8 +11,8 @@
 
     const data = [
         {
-            'hc-key': 'ye',
-            color: '#ffa500',
+            'hc-key': 'no',
+            color: '#870C89',
             info: 'Yemen is where coffee took off.'
         },
         {
@@ -194,17 +194,15 @@
                         name: 'Norway',
                         geometry: {
                             type: 'Point',
-                            coordinates: [60.472024, 9.468946] // Norway
+                            coordinates: [8.4689,60.4720] // Norway
                         },
-                        custom: {
-                            arrival: 1414
-                        },
+                       
                         dataLabels: {
                             align: 'right'
                         }
                     },
                     {
-                        name: 'Norge',
+                        name: 'Indonesia',
                         geometry: {
                             type: 'Point',
                             coordinates: [110.004444, -7.491667] // Java
