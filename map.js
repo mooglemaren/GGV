@@ -1,5 +1,9 @@
 // Create a data value for each feature
 
+
+
+
+
 (async () => {
     const topology = await fetch(
         'https://code.highcharts.com/mapdata/custom/world-highres.topo.json'
@@ -100,7 +104,7 @@
                         geometry: {
                             type: 'LineString',
                             coordinates: [
-                                [48.516388, 15.552727], // Yemen
+                                [8.4689,60.4720], // Yemen
                                 [110.004444, -7.491667] // Java
                             ]
                         },
@@ -111,7 +115,7 @@
                         geometry: {
                             type: 'LineString',
                             coordinates: [
-                                [48.516388, 15.552727], // Yemen
+                                [8.4689,60.4720], // Yemen
                                 [55.5325, -21.114444] // La reunion
                             ]
                         },
@@ -122,7 +126,7 @@
                         geometry: {
                             type: 'LineString',
                             coordinates: [
-                                [55.5325, -21.114444], // La reunion
+                                [8.4689,60.4720], // La reunion
                                 [-43.2, -22.9] // Brazil
                             ]
                         },
@@ -133,7 +137,7 @@
                         geometry: {
                             type: 'LineString',
                             coordinates: [
-                                [48.516388, 15.552727], // Yemen
+                                [8.4689,60.4720], // Yemen
                                 [78, 21] // India
                             ]
                         },
@@ -144,7 +148,7 @@
                         geometry: {
                             type: 'LineString',
                             coordinates: [
-                                [110.004444, -7.491667], // Java
+                                [8.4689,60.4720], // Java
                                 [4.9, 52.366667] // Amsterdam
                             ]
                         },
@@ -155,7 +159,7 @@
                         geometry: {
                             type: 'LineString',
                             coordinates: [
-                                [-3, 55], // UK
+                                [8.4689,60.4720], // UK
                                 [-61.030556, 14.681944] // Antilles
                             ]
                         },
@@ -166,7 +170,7 @@
                         geometry: {
                             type: 'LineString',
                             coordinates: [
-                                [2.352222, 48.856613], // Paris
+                                [8.4689,60.4720], // Paris
                                 [-53, 4] // Guyane
                             ]
                         },
@@ -187,10 +191,10 @@
                 },
                 data: [
                     {
-                        name: 'Yemen',
+                        name: 'Norway',
                         geometry: {
                             type: 'Point',
-                            coordinates: [48.516388, 15.552727] // Yemen
+                            coordinates: [60.472024, 9.468946] // Norway
                         },
                         custom: {
                             arrival: 1414
@@ -200,7 +204,7 @@
                         }
                     },
                     {
-                        name: 'Java',
+                        name: 'Norge',
                         geometry: {
                             type: 'Point',
                             coordinates: [110.004444, -7.491667] // Java
